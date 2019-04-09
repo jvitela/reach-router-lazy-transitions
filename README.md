@@ -1,2 +1,2 @@
 # reach-router-lazy-transitions
-Example of Reach-Router + React.lazy + data Fetching + CSSTransitions
+Example of Reach-Router + React.lazy + async getInitialProps + CSSTransition
