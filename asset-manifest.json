@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.7f93aa0b.chunk.css",
-    "main.js": "/static/js/main.1ae8bbeb.chunk.js",
-    "main.js.map": "/static/js/main.1ae8bbeb.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.2a1b35a3.js",
-    "runtime~main.js.map": "/static/js/runtime~main.2a1b35a3.js.map",
-    "static/js/2.8b5f77c1.chunk.js": "/static/js/2.8b5f77c1.chunk.js",
-    "static/js/2.8b5f77c1.chunk.js.map": "/static/js/2.8b5f77c1.chunk.js.map",
-    "static/js/3.78da43ab.chunk.js": "/static/js/3.78da43ab.chunk.js",
-    "static/js/3.78da43ab.chunk.js.map": "/static/js/3.78da43ab.chunk.js.map",
-    "static/js/4.76002ef6.chunk.js": "/static/js/4.76002ef6.chunk.js",
-    "static/js/4.76002ef6.chunk.js.map": "/static/js/4.76002ef6.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.b32d0d5f52465f4527767c66e5699d90.js": "/precache-manifest.b32d0d5f52465f4527767c66e5699d90.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.7f93aa0b.chunk.css.map": "/static/css/main.7f93aa0b.chunk.css.map",
-    "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg"
+    "main.css": "/reach-router-lazy-transitions/static/css/main.7f93aa0b.chunk.css",
+    "main.js": "/reach-router-lazy-transitions/static/js/main.cd636e2d.chunk.js",
+    "main.js.map": "/reach-router-lazy-transitions/static/js/main.cd636e2d.chunk.js.map",
+    "runtime~main.js": "/reach-router-lazy-transitions/static/js/runtime~main.5774663a.js",
+    "runtime~main.js.map": "/reach-router-lazy-transitions/static/js/runtime~main.5774663a.js.map",
+    "static/js/2.8b5f77c1.chunk.js": "/reach-router-lazy-transitions/static/js/2.8b5f77c1.chunk.js",
+    "static/js/2.8b5f77c1.chunk.js.map": "/reach-router-lazy-transitions/static/js/2.8b5f77c1.chunk.js.map",
+    "static/js/3.78da43ab.chunk.js": "/reach-router-lazy-transitions/static/js/3.78da43ab.chunk.js",
+    "static/js/3.78da43ab.chunk.js.map": "/reach-router-lazy-transitions/static/js/3.78da43ab.chunk.js.map",
+    "static/js/4.76002ef6.chunk.js": "/reach-router-lazy-transitions/static/js/4.76002ef6.chunk.js",
+    "static/js/4.76002ef6.chunk.js.map": "/reach-router-lazy-transitions/static/js/4.76002ef6.chunk.js.map",
+    "index.html": "/reach-router-lazy-transitions/index.html",
+    "precache-manifest.6f59ac21e928f5704c2a656000adf84b.js": "/reach-router-lazy-transitions/precache-manifest.6f59ac21e928f5704c2a656000adf84b.js",
+    "service-worker.js": "/reach-router-lazy-transitions/service-worker.js",
+    "static/css/main.7f93aa0b.chunk.css.map": "/reach-router-lazy-transitions/static/css/main.7f93aa0b.chunk.css.map",
+    "static/media/logo.svg": "/reach-router-lazy-transitions/static/media/logo.5d5d9eef.svg"
   }
 }
