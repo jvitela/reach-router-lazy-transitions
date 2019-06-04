@@ -1,16 +1,17 @@
 import First from 'pages/First/First'
 
 export default function getRoutes() {
+    var basePath = process.env.NODE_ENV === 'production' ? '/reach-router-lazy-transitions' : '/';
     return [
         {
-            path: '/',
+            path: basePath,
             component: First,
             links: {
                 success: 'second' // relative path or '/second' for absolute path
             }
         },
         {
-            path: 'second', // or '/second'
+            path: `${basePath}/second`, // or '/second'
             importComponent: () => import('pages/Second/Second'),
             links: {
                 success: '../third',
@@ -18,10 +19,10 @@ export default function getRoutes() {
             }
         },
         {
-            path: 'third',
+            path: `${basePath}/third`,
             importComponent: () => import('pages/Third/Third'),
             links: {
-                cancel: '/' // use absolute path
+                cancel: basePath // use absolute path
             }
         }
     ];
