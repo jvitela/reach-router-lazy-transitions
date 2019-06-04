@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/reach-router-lazy-transitions/precache-manifest.a88ea0b08daa3b8fedf555744c9949dc.js"
+  "/reach-router-lazy-transitions/precache-manifest.b3c87ab77ccab04f2426bfc1c8afc6a9.js"
 );
 
 self.addEventListener('message', (event) => {
