@@ -1,5 +1,6 @@
 
 const onLocationChanged = (state, location) => {
+    const locationKey = location.key || state.locationKey;
     const result = state.result.concat(location.key);
     const entities = {
         ...state.entities,
@@ -10,7 +11,8 @@ const onLocationChanged = (state, location) => {
             isEntered: false
         }
     };
-    return { result, entities };
+
+    return { locationKey, result, entities };
 };
 
 const onPageEnter = (state, key, initialProps = {}) => {
@@ -36,7 +38,7 @@ const onPageEnter = (state, key, initialProps = {}) => {
 const onPageExited = (state, key) => {
     const result = state.result.filter(itm => (itm !== key));
     const { [key]: removed, ...entities } = state.entities;
-    return { result, entities };
+    return { ...state, result, entities };
 };
 
 const onPageEntered = (state, key) => {
@@ -58,6 +60,7 @@ export const pageExited = key => ({ type: 'pageExited', key });
 export const pageEntered = key => ({ type: 'pageEntered', key });
 
 export const initialState = {
+    locationKey: null,
     result: [],
     entities: {}
 };

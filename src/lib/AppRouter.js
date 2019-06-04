@@ -1,6 +1,7 @@
 import React, { Suspense, lazy, useReducer, useEffect } from 'react'
 import { Router, Location } from '@reach/router'
 import { TransitionGroup, CSSTransition } from 'react-transition-group'
+import _noop from 'lodash/noop'
 import {
     initialState,
     reducer,
@@ -28,14 +29,16 @@ const PageTransitionRouter = ({
     routes,
     timeout,
     classNames,
-    onLoading = () => { },
+    onLoading = _noop,
 }) => {
     const [state, dispatch] = useReducer(reducer, initialState);
 
     useEffect(() => {
-        dispatch(locationChanged(location));
-        onLoading(true);
-    }, [location.key]);
+        if (state.locationKey !== location.key) {
+            dispatch(locationChanged(location));
+            onLoading(true);
+        }
+    });
 
     const { toRender, toFetchData } = groupEntities(state);
 
